@@ -14,7 +14,7 @@ import Nav from "@/components/Nav.vue";
     Show drawer from the top
   </button>
 
-  <!-- drawer die verschijnt, hij komt nu van rechts het scherm binnen -->
+  <!-- drawer die verschijnt, hij komt nu van boven het scherm binnen -->
   <div id="navTop"
        aria-labelledby="drawer-label"
        class="drawer drawer--top -translate-y-full"
