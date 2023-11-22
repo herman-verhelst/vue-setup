@@ -5,20 +5,20 @@ import Nav from "@/components/Nav.vue";
 <template>
 
   <!-- Button om drawer te tonen, button kan in elk bestand geplaatst worden. -->
-  <button aria-controls="nav"
+  <button aria-controls="navLeft"
           class="button"
-          data-drawer-show="nav"
-          data-drawer-target="nav"
+          data-drawer-show="navLeft"
+          data-drawer-target="navLeft"
           type="button">
-    Show drawer
+    Show drawer from the left
   </button>
 
   <!-- drawer die verschijnt, hij komt nu van links het scherm binnen -->
-  <div id="nav"
+  <div id="navLeft"
        aria-labelledby="drawer-label"
-       class="drawer -translate-x-full"
+       class="drawer drawer--left -translate-x-full"
        tabindex="-1">
-    <Nav></Nav>
+    <Nav drawer-id="navLeft"></Nav>
   </div>
 
 </template>

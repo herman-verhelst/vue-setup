@@ -1,11 +1,14 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import Nav from "@/components/Nav.vue";
-import Drawer from "@/components/Drawer.vue";
+import DrawerLeft from "@/components/DrawerLeft.vue";
+import DrawerRight from "@/components/DrawerRight.vue";
+import DrawerTop from "@/components/DrawerTop.vue";
 </script>
 
 <template>
-  <Drawer></Drawer>
+  <DrawerLeft></DrawerLeft>
+  <DrawerRight></DrawerRight>
+  <DrawerTop></DrawerTop>
   <RouterView />
 </template>
 
